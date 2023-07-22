@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple timer app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h4>Multiple Timers App</h4>
+    
+    <div class="set_time">
+       <p>Set Time :</p>
+       
+       <form>
+           <input type="number" id="hr" placeholder="hh" value="">
+           <input type="number" id="min" placeholder="mm" value="">
+           <input type="number" id="sec" placeholder="ss" value="">
+       </form>
+       <button id="btn">Set</button>
+    </div>
+   <div class="currenttimer">
+    <p class="timer">Current Timers</p>
+   </div>
+    <div id="timer_container">
+       <p class="msg"> you have no timers currently!</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

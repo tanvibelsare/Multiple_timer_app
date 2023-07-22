@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    color: white;
+
+}
+h4{
+    text-align: center;
+}
+.set_time{
+  display: flex;
+  height: 50px;
+  width: 400px;
+  background-color:darkgray ;
+  gap: 40px;
+  padding-left: 20px;
+  border-radius: 10px;
+
+  margin-left: 400px;
+  margin-top: 10px;
+}
+input{
+  background-color:darkgrey;
+    margin-top: 15px;
+    width: 40px;
+    border: none;
+  
+}
+input::placeholder{
+    color: white;
+}
+#btn{
+    background-color: yellow;
+    color: black;
+    width: 70px;
+    border-radius: 10px;
+    height: 30px;
+    margin-top: 10px;
+}
+.currenttimer{
+    width: 200px;
+    height: 30px;
+    background-color: grey;
+    text-align: center;
+    margin-left:500px ;
+    border-radius: 20px;
+}
+.timer{
+    padding-top: 6px;
+}
+.msg{
+    margin-left:500px;
+}
+.time_up{
+    height: 50px;
+  width: 400px;
+  background-color:yellow ;
+  padding-left: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 400px;
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.stop{
+    background-color: black;
+    color: white;
+    width: 70px;
+    border-radius: 10px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
